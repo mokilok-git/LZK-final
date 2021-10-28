@@ -7,5 +7,5 @@ Basic webapp to fetch current rates from the Kraken-Api and store them in the lo
 -[x] Invalid (not numbers) entries will throw an error and a warning  
 
 TO BE DONE  
--[]An Alert function will be implemented in case the rate exceeds/ falls below a stored value  
--[]The past stored values can be shown as a graph  
+-[ ]An Alert function will be implemented in case the rate exceeds/ falls below a stored value  
+-[ ]The past stored values can be shown as a graph  
