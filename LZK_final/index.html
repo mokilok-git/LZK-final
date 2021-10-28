@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BTC rate ticker</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/btc_icon.png" />
+    <link rel="stylesheet" type="text/css" href="ticker.css" media="screen" />
+    <script src="ticker.js"></script>
+</head>
+
+<body>
+<h1>BTC rate ticker</h1>
+<div id="ticker-block">
+    <div id="ticker" >1 BTC = <span id="rate-span">?</span> EUR</div>
+    <div id="refresh-info">Next refresh: <span id="refresh-info-span">?</span> sec</div>
+</div>
+
+<div id="controls">
+    <button id="btn_start" type="button" enabled="true">Start</button>
+    <button id="btn_stop"  type="button" enabled="false">Stop</button>
+</div>
+
+<form id="frm3" class="form" >
+
+    <div id="currval">Last stored value: <span id="out_currentvalue"></span></div>
+    <div>
+        <span id="nv">New value:</span>
+        <input id="tf_numberinput" type="text" value="" />
+    </div>
+    <div>
+        <button id="btn_store" type="button">Store</button>
+        <button id="btn_clear" type="button">Clear</button>
+    </div>
+    <div id="error-not-a-number">
+    </div>
+    <div id="info">
+    </div>
+</form>
+
+
+<!-- <form id="frm2" class="form">
+     Graph<br>
+ </form>-->
+
+
+<form id="frm4" class="form">
+    <div id="info2">
+        API call: <a href="https://api.kraken.com/0/public/Ticker?pair=XBTEUR">https://api.kraken.com/0/public/Ticker?pair=XBTEUR</a><br/>
+        API doc: <a href="https://docs.kraken.com/rest/#operation/getTickerInformation">https://docs.kraken.com/rest/#operation/getTickerInformation</a>
+    </div>
+</form>
+
+</body>
+</html>
