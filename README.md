@@ -9,3 +9,4 @@ Basic webapp to fetch current rates from the Kraken-Api and store them in the lo
 TO BE DONE  
 -[ ]An Alert function will be implemented in case the rate exceeds/ falls below a stored value  
 -[ ]The past stored values can be shown as a graph  
+-[ ]Layout: BTC Icon should be shown @website and @browser tab
